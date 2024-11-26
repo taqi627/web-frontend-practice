@@ -1,0 +1,35 @@
+/* *
+{
+    background-color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: blue;
+} */
+
+div{
+    background-color: brown;
+}
+
+ul
+{
+    width: 100%;
+    height: auto;
+    display: inline;
+    list-style: none;
+
+}
+
+li{
+    width: 110;
+    height: 81px; ;
+    display: inline;
+    background-color: dimgrey;
+    border: 1px solid white;
+}
+
+a{
+    text-decoration: none;
+    width: 100px;
+    height: 80px;
+}
+

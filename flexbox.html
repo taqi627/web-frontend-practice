@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+            height: 300px; /* Define a height for the container */
+            /*align-items: center;*/
+        }
+        .box {
+            width: 50px;
+            height: 100px; /* Define a height for the flex items */
+            border: 2px solid blanchedalmond;
+            font-size: xx-large;
+        }
+        #box1 {
+            align-self: center;
+            background-color: rgb(192, 226, 43);
+        }
+        #box2 {
+            align-self: stretch;
+            background-color: rgb(226, 43, 52);
+        }
+        #box3 {
+            background-color: blueviolet;
+        }
+        #box4 {
+            background-color: rgb(130, 185, 236);
+        }
+        #box5 {
+            background-color: rgb(201, 130, 130);
+        }
+        #box6 {
+            background-color: rgb(226, 43, 217);
+        }
+        #box7 {
+            background-color: rgb(226, 43, 43);
+        }
+        #box8 {
+            background-color: rgb(171, 226, 43);
+        }
+        #box9 {
+            background-color: rgb(43, 226, 125);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="box1" class="box">1</div>
+        <div id="box2" class="box">2</div>
+        <div id="box3" class="box">3</div>
+        <div id="box4" class="box">4</div>
+        <div id="box5" class="box">5</div>
+        <div id="box6" class="box">6</div>
+        <div id="box7" class="box">7</div>
+        <div id="box8" class="box">8</div>
+        <div id="box9" class="box">9</div>
+    </div>
+</body>
+</html>

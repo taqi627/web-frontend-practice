@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Form</title>
+    <style>
+        h1:first-child {
+            background-color: blueviolet;
+            color: chartreuse;
+            border: 4px solid blue;
+            border-radius: 15px;
+            visibility: collapse;
+        }
+
+        input:checked {
+            border: 5px solid green;
+            border-radius: 50px;
+            background-color: blue;
+            width: 50px;
+            height: 50px;
+            color: crimson;
+        }
+
+        input:enabled{
+            width: 200px;
+            height: 200px;
+        }
+
+        h2:disabled{
+            border: 5px solid rgb(179, 133, 240);
+            border-radius: 50px;
+            background-color: rgb(123, 160, 230);
+            width: 50px;
+            height: 50px;
+
+        }
+
+        h1:empty{
+            width: 100px;
+            height: 50px;
+            background-color: aqua;
+            border: 12px solid yellow;
+        }
+
+        input:focus{
+            background-color: darkcyan;
+        }
+        
+        p::selection{
+            background-color: chartreuse;
+            border: 2px solid orange;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Contact Us</h1>
+    
+    <form action="/submit" method="post">
+        <label for="name">Name:</label><br>
+        <input disabled type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label for="interests">Select your interests:</label><br>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label><br>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label><br>
+        <input type="checkbox" id="reading" name="interests" value="reading">
+        <label for="reading">Reading</label><br><br>
+
+        <label for="country">Country:</label><br>
+        <select id="country" name="country">
+            <option value="pakistan">Pakistan</option>
+            <option value="india">India</option>
+            <option value="china">China</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <h1>
+       kk
+</h1>
+
+    <h1>
+        <h2>no empty</h2>
+    </h1>
+
+    <p>
+        I am Taskeen MustafaNizamani
+    </p>
+
+    <h1>Taskeen Mustafa</h1>
+
+</body>
+</html>

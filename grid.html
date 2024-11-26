@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+            grid-gap:20px;
+            grid-auto-rows: minmax(100px,auto);
+            grid-auto-columns: minmax(50px,auto);
+            column-gap: 60px;
+            row-gap: 40px;
+
+
+        }
+        .box
+        {
+            background-color: cadetblue;
+            border: 3px solid green;
+            border-radius: 3px;
+        }
+
+        #b1 {
+
+            grid-row-start: 1;
+            grid-row-end: 3;
+
+            grid-column-start: 1;
+            grid-column-end: 1;
+
+        }
+
+        #b2 {
+            grid-row-start: 2;
+            grid-row-end: 3;
+
+            grid-column-start: 2;
+            grid-column-end: 3;
+
+        }
+
+        #b3 {
+
+        }
+
+        #b4 {
+
+        }
+
+        #b5 {
+
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="b1" class="box">dabba 1
+            
+        </div>
+        <div id="b2" class="box">dabba 2</div>
+        <div id="b3" class="box">dabba 3</div>
+        <div id="b4" class="box">dabba 4</div>
+        <div id="b5" class="box">dabba 5</div>
+    </div>
+</body>
+</html>

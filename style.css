@@ -1,0 +1,122 @@
+body{
+    background-color: rgb(247, 241, 241);
+    color: black;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: rgb(27, 29, 20);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li
+{
+    list-style: none;
+}
+
+.navbar{
+    display:flex;
+    flex-direction: row;
+    column-gap: 10px;
+    padding: 4px;
+}
+
+.navbar *
+{
+    color: #fcfcfc;
+    text-decoration: none;
+
+    
+}
+
+.navbar * :hover
+{
+    color: #3ab9cf;
+    background-color: #fcfcfc;
+}
+ /* 
+*/
+
+.banner
+{
+    display: flex;
+    flex-direction: row;
+   background-image: url(https://yt3.googleusercontent.com/yWNk5Uu-_SmnNROf1MdalgZenFpEMCHx9inTxigrhiLLma1h3U9hE5M9jF2hoxEQ1DENKRHzPA=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj);
+   background-size: contain;
+    
+    padding: 5px;
+    border: none;
+}
+
+.propic
+{
+    max-width:80px;
+    height: 90px;
+    margin: 5px;
+    margin-top: 40px;
+    margin-left: 20px;
+    border: none;
+} 
+
+.clipcircle
+{
+    clip-path: circle(50% at 50% 50%);
+}
+
+.title
+{
+    margin-top: 80px;
+    margin-left: 20px;
+    font-size: xx-large;
+    font-family: serif;
+    color: #4d2b26;
+    font-weight: bolder;
+}
+
+.navbar
+{
+    background-color: rgb(49, 44, 44);
+    color: aliceblue;
+    
+}
+
+ul > li{
+list-style:disc;
+}
+
+.main
+{
+  
+    background-color: rgb(208, 188, 226);
+    /* padding: 5px; */
+    border: 2px solid rgb(49, 44, 44);
+}
+
+iframe
+{
+    margin 
+    height: 150px;
+    width: 200px;
+}
+
+header
+{
+    background-color: black;
+   
+}
+
+@media screen and (orientation: landscape)
+ {
+    body
+    {
+        color: blue;
+    }
+
+    body li a::after {
+        content: "(" attr(data-email) ")";
+    }
+    
+}
+
